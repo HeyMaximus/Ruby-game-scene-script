@@ -1,0 +1,65 @@
+@>Play SE: 'Crow', 80, 100
+@>Set Move Route: [EV003]
+: : $>Jumpz +0,+1
+@>Set Move Route: [EV005]
+: : $>Jumpz +0,+1
+@>Set Move Route: [EV004]
+: : $>Jumpz +0,+0
+@>Set Move Route: [EV006]
+: : $>Jumpz +0,+0
+@>Set Move Route: [EV012]
+: : $>Jumpz +0,+0
+@>Set Move Route: [EV013]
+: : $>Jumpz +0,+0
+@>Set Move Route: [EV010]
+: : $>Jumpz +0,+0
+@>Wait: 60 frame(s)
+@>Play BGM: 'Town2', 100, 100
+@>Show Balloon Icon: [EV003], Anger
+@>Show Balloon Icon: [EV002], Question
+@>Show Balloon Icon: [EV004], Cobweb
+@>Show Balloon Icon: [EV005], Sweat
+@>Show Balloon Icon: [EV006], Exclamation
+@>Show Balloon Icon: [EV007], Silence
+@>Show Balloon Icon: [EV008], Sweat
+@>Show Balloon Icon: [EV009], Sweat
+@>Show Balloon Icon: [EV010], Sweat
+@>Show Balloon Icon: [EV011], Sweat
+@>Show Balloon Icon: [EV012], Sweat
+@>Show Balloon Icon: [EV003], Anger
+@>Show Balloon Icon: [EV002], Question
+@>Show Balloon Icon: [EV004], Cobweb
+@>Show Balloon Icon: [EV005], Sweat
+@>Show Balloon Icon: [EV006], Exclamation
+@>Show Balloon Icon: [EV007], Silence
+@>Show Balloon Icon: [EV008], Sweat
+@>Show Balloon Icon: [EV009], Sweat
+@>Show Balloon Icon: [EV010], Sweat
+@>Show Balloon Icon: [EV011], Sweat
+@>Show Balloon Icon: [EV012], Sweat
+@>Show Balloon Icon: [EV013], Sweat
+@>Show Balloon Icon: [EV013], Sweat
+@>Text: 'Actor4', 1, Normal, Bottom
+: : \>Head Maid Gina:\<
+: : Sooo yeah~ \l that's how we decide
+: : \C[18]Top Maid\C[0] at Summoner's Ca
+: : Exciting, yes? \.\|Now if y'all take a seat
+@>Text: 'Actor4', 1, Normal, Bottom
+: : let's load the Google Slides.
+@>Show Balloon Icon: [EV003], Anger
+@>Show Balloon Icon: [EV002], Question
+@>Show Balloon Icon: [EV004], Cobweb
+@>Show Balloon Icon: [EV005], Sweat
+@>Show Balloon Icon: [EV006], Exclamation
+@>Show Balloon Icon: [EV007], Silence
+@>Show Balloon Icon: [EV008], Sweat
+@>Show Balloon Icon: [EV009], Sweat
+@>Show Balloon Icon: [EV010], Sweat
+@>Show Balloon Icon: [EV011], Sweat
+@>Show Balloon Icon: [EV012], Sweat
+@>Show Balloon Icon: [EV013], Sweat
+@>Wait: 60 frame(s)
+@>Fadeout BGM: 3 sec.
+@>Fadeout Screen
+@>Transfer Player:[004:MAP004] (007,006)
+@>
