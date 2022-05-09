@@ -1,0 +1,75 @@
+@>Flash Screen: (255,0,0,255), @60
+@>Shake Screen: 5, S, @60, Wait
+@>Text: 'Actor4', 1, Normal, Bottom
+: : Head Maid Gina:
+: : Ready, tributes?
+@>Set Move Route: [EV002] (Wait)
+: : $>Stepping Animation ON
+: : $>Turn Right
+@>Text: 'Actor5', 1, Normal, Bottom
+: : Mindy:
+: : Ready, Head Maid.
+@>Set Move Route: [EV003] (Wait)
+: : $3~Stepping Animation ON
+: : $>Turn Left
+@>Text: 'Actor2', 3, Normal, Bottom
+: : Rebecca:
+: : BRING IT!
+@>Text: 'ActorB', 3, Normal, Bottom
+: : Rebecca:
+: : \C[18]Angst of the Fire Nation, RELEASE!
+@>Show Animation: [EV002], [Blow Fire]
+@>Shake Screen: 5, S, @60, Wait
+@>Text: 'Actor5', 1, Normal, Bottom
+: : Mindy:
+: : F**k "%(#($*....
+: : \>I'mma get you for that!
+@>Text: 'Actor2', 3, Normal, Bottom
+: : Rebecca:
+: : Come at me, brah!
+: : BOO YEAH~
+@>Show Animation: [EV002], [Fire One 1], Wait
+@>Text: 'Actor5', 1, Normal, Bottom
+: : Mindy:
+: : That's it!\.
+: : \C[23]Glare of the Dissaproving Asian Mom!
+@>Show Animation: [EV003], [Ice One 2]
+@>Shake Screen: 5, S, @60, Wait
+@>Set Move Route: [EV003] (Wait)
+: : $>Turn Up
+: : $>Graphicz 'Behaviorl', 2
+: : $>Direction Fix ON
+@>Show Balloon Icon: [EV003], Cobweb
+@>Text: 'Actor2', 3, Normal, Bottom
+: : Rebecca:
+: : I... \.can't... \.move.
+@>Text: 'Actor5', 1, Normal, Bottom
+: : Mindy:
+: : Ah~ HAHAHAHA~
+: : YOUR SOUL IS MINE!
+@>Text: 'Actor4', 1, Normal, Middle
+: : Head Maid Gina:
+: : Finish her!
+@>Text: 'Actor5', 1, Normal, Bottom
+: : Mindy:
+: : \{\{Powering up!
+@>Show Animation: [EV002], [Powerup 4], Wait
+@>Text: 'Actor2', 3, Normal, Bottom
+: : Rebecca:
+: : NOoooOOoo!
+@>Show Animation: [EV003], [Pierce Ice], Wait
+@>Show Animation: [EV003], [Ice One 1], Wait
+@>Show Animation: [EV003], [Death]
+@>Play SE: 'Scream', 80, 100
+@>Set Move Route: [EV003] (Wait)
+: : $>Transparent ON
+@>Fadeout BGM: 3 sec.
+@>Play ME: 'Victoryl', 100, 100
+@>Wait: 90 frame(s)
+@>Fadeout Screen
+@>Text: -, -, Transparent, Bottom
+: : ...and from that day forward, a new \C[18]Top Maid\C[0]
+: : of Summoner's Cafe was crowned.
+@erransfer Player:[003:End Room] (008,009)
+@>Fadein Screen
+@>
