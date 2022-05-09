@@ -1,0 +1,87 @@
+@>Scroll Map: Up, 30, 4
+@>Set Move Route: [Intro]
+: : $>Wall<ing Animation ON
+: : $>Move Down
+: : $>Move Down
+: : $>Move Down
+: : $>Wall<ing Animation OFF
+@>Show Animation: [EV004], [Light Pillar 1]
+@>Show Animation: [EV002], [Light Pillar 1]
+@>Show Animation: [EV003], [Light Pillar 1]
+@>Play BGM: 'Town2', 100, 100
+@>Text: 'Actor4', 1, Normal, Bottom
+: : \>Head Maid Gina:\<
+: : Three beautiful ladies stand before me.
+: : \lWho will go on to become the
+: : \C[18]Top Maid\C[0] of Summoner's Cafe?
+@>Set Move Route: [EV002]
+: : $>Move Up
+: : $>Move Up
+: : $>Move Up
+@>Set Move Route: [EV004]
+: : $>Move Up
+: : $>Move Up
+: : $>Move Up
+@>Set Move Route: [EV003]
+: : $>Move Up
+: : $>Move Up
+: : $>Move Up
+@>Wait: 60 frame(s)
+@>Set Move Route: [EV003] (Wait)
+: : $>Turn Left
+@>Show Balloon Icon: [EV003], Anger
+@>Text: 'Actor5', 1, Normal, Bottom
+: : Mindy:
+: : Ain't gonna be you, sister! \.
+: : \>Now DIE!
+@>Show Animation: [EV002], [Blow Ice]
+@>Text: 'Actor2', 5, Normal, Bottom
+: : Cindy:
+: : AHHHHH~
+@>Set Move Route: [EV002] (Wait)
+: : $>Change Speed: 6
+: : $>Move Left
+: : $>Move Left
+: : $>Move Left
+: : $>SE: 'Cat', 80, 100
+: : $>Change Opacity: 0
+@>Show Balloon Icon: [Intro], Exclamation
+@>Text: 'Actor4', 1, Normal, Bottom
+: : \>Head Maid Gina:\<
+: : Ookay. Two beautiful ladies stand before me. \.
+: : Which one of you will become the
+: : \C[18]Top Maid \C[8]of Summoner's Cafe?
+@>Set Move Route: [EV003]
+: : $>Turn Up
+@>Text: 'Actor5', 1, Normal, Bottom
+: : Mindy:
+: : I will!
+@>Set Move Route: [EV004] (Wait)
+: : $>Turn Left
+@>Text: 'Actor2', 3, Normal, Middle
+: : Rebecca:
+: : NO, I will!
+@>Set move Route: [EV003]
+: : $>Move Up
+: : $>Turn Right
+: : $>Move Right
+: : $>Move Right
+@>Show Balloon Icon: [EV003], Anger
+@>Text: 'Actor5', 1, Normal, Bottom
+: : Mindy:
+: : You must not have been paying attention.
+@>Set Move Route: This event
+: : $>Move Right
+: : $>Move Right
+: : $>Move Right
+: : $>Move Down
+@>Show Balloon Icon: [Intro], Exclamation
+@>Text: 'Actor1', 1, Normal, Bottom
+: : \>Head Maid Gina:\<
+: : Wait, wait! There's only one way
+: : to settle this...
+@>Fadeout Screen
+@DrTransfer Player:[001:Battle Scene] (009,010)
+@>Fadein Screen
+@>Control Self Switch: A =ON
+@>
